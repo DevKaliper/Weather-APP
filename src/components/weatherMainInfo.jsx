@@ -3,7 +3,7 @@
 export default function WeatherMainInfo({ weather }) {
   return (
     <div>
-        <div>Alert! is not connected to API yet</div>
+        <div>Alert! is not connected to API yet!!!</div>
       <div>City: {weather?.location.name}</div>
       <div> Country: {weather?.location.country}</div>
       <div className="weatherCondition">
